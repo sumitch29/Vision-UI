@@ -1,0 +1,96 @@
+
+.avatar-container{
+    width: 70%;
+    position: absolute;
+    top:10rem;
+    left: 30rem;
+}
+
+.heading{
+    font-size: xx-large;
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.info{
+    font-size: large;
+    padding: 2rem 0 2rem 0;
+}
+
+.box{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.smallavt{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.mediumavt{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.largeavt{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.yellowavt{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueavt{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.greenavt{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .code-box{
+        box-sizing: border-box;
+        width: 100%;
+        max-height: auto;
+        padding: 1rem 0;
+        background-color: #FAFAFA;
+        margin: 2rem 0;
+        overflow: auto;
+    }
+    .code-box iframe{
+        width: 100%;
+        border: none;
+    }
+
+    .avatar-container{
+        position: absolute;
+        left: 2rem;
+        width: 90%;
+    }
+    }

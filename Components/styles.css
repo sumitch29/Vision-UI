@@ -30,3 +30,16 @@
     background-color: white;
     border-radius: 1rem;
 }
+
+
+@media (max-width:768px){
+    .sidebar{
+        width: 17rem;
+    }
+}
+
+@media (max-width:468px){
+    .sidebar{
+        width: 12rem;
+    }
+}

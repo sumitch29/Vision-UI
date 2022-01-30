@@ -1,4 +1,3 @@
-
 .page-container{
     width: 70%;
     position: absolute;
@@ -22,9 +21,18 @@
 }
 
 .box{
-    padding: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     display: flex;
     justify-content: space-evenly;
+    /* border: 1px solid rgb(68, 68, 68); */
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.code-box{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .smallavt{
@@ -71,8 +79,7 @@
 
 
 
-
-
+/* 
 @media only screen and (max-width: 768px) {
     .code-box{
         box-sizing: border-box;
@@ -93,4 +100,4 @@
         left: 2rem;
         width: 90%;
     }
-    }
+    } */

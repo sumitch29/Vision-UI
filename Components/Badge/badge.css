@@ -1,0 +1,52 @@
+.status-badge{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 13px;
+    left: 35px;
+    border: 1px solid white;
+}
+
+.number-badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 56px;
+    left: 22px;
+    border: 1px solid white;
+    background-color: rgb(231, 15, 15);
+    color: white;
+}
+
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: rgb(255, 0, 191);
+}
+
+.online, .green{
+    background-color: green;
+}
+
+.offline{
+background-color: gray;
+}
+
+.dnd{
+    background-color: red;
+}
+
+.icon{
+    font-size: xx-large;
+}
+
+.code-box{
+    display: flex;
+    justify-content: center;
+}

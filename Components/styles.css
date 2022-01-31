@@ -35,11 +35,15 @@
 @media (max-width:768px){
     .sidebar{
         width: 17rem;
+        height: auto;
+        overflow-y: auto;
     }
 }
 
 @media (max-width:468px){
     .sidebar{
         width: 12rem;
+        height: auto;
+        overflow-y: auto;
     }
 }

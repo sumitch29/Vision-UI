@@ -1,113 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vision UI : Badge</title>
-    <link rel="stylesheet" href="/Components/Badge/badge.css">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/Components/styles.css">
-    <link rel="stylesheet" href="/Components/Avatar/avatar.css">
-    <script src="https://kit.fontawesome.com/42dfc9d817.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="/Components/Badge/badge.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/Components/styles.css" />
+    <link rel="stylesheet" href="/Components/Avatar/avatar.css" />
+    <script
+      src="https://kit.fontawesome.com/42dfc9d817.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <header class="header-container">
-        <h1 class="header-heading">Vision UI</h1>
-        <div class="header-link">
-            <p class="home-link"><a href="/index.html">Home</a></p>
-        </div>
+      <h1 class="header-heading">Vision UI</h1>
+      <div class="header-link">
+        <p class="home-link"><a href="/index.html">Home</a></p>
+      </div>
     </header>
     <main>
-        <nav>
-            <ul class="sidebar">
-                <li class="sidebar-link">
-                    <a href="/Components/index.html">Get Started</a>
-                </li>
-                <li class="sidebar-link">
-                    <a href="/Components/Avatar/avatar.html">Avatar</a>
-                </li>
-                <li class="sidebar-link active"><a href="/Components/Badge/badge.html">Badge</a></li>
-                <li class="sidebar-link"><a href="">Alert</a></li>
-                <li class="sidebar-link"><a href="">Button</a></li>
-                <li class="sidebar-link"><a href="">Card</a></li>
-                <li class="sidebar-link"><a href="">Image</a></li>
-                <li class="sidebar-link"><a href="">Input</a></li>
-                <li class="sidebar-link"><a href="">Text Utilities</a></li>
-                <li class="sidebar-link"><a href="">Lists</a></li>
-                <li class="sidebar-link"><a href="">Navigation</a></li>
-                <li class="sidebar-link"><a href="">Model</a></li>
-                <li class="sidebar-link"><a href="">Rating</a></li>
-                <li class="sidebar-link"><a href="">Toast</a></li>
-                <li class="sidebar-link"><a href="">Grid</a></li>
-            </ul>
-        </nav>
-        <div class="page-container">
-            <h1 class="heading">Badge</h1>
-            <p class="info">
-                Badges are small circles, positioned either at top-right or bottom-right of the parent component. Badge
-                can be used to display numbers, online / offline status, depending on where they are used.
-            </p>
+      <nav>
+        <ul class="sidebar">
+          <li class="sidebar-link">
+            <a href="/Components/index.html">Get Started</a>
+          </li>
+          <li class="sidebar-link">
+            <a href="/Components/Avatar/avatar.html">Avatar</a>
+          </li>
+          <li class="sidebar-link active">
+            <a href="/Components/Badge/badge.html">Badge</a>
+          </li>
+          <li class="sidebar-link">
+            <a href="/Components/Alert/alert.html">Alert</a>
+          </li>
+          <li class="sidebar-link">
+            <a href="/Components/Button/button.html">Button</a>
+          </li>
+          <li class="sidebar-link"><a href="">Card</a></li>
+          <li class="sidebar-link"><a href="">Image</a></li>
+          <li class="sidebar-link"><a href="">Input</a></li>
+          <li class="sidebar-link"><a href="">Text Utilities</a></li>
+          <li class="sidebar-link"><a href="">Lists</a></li>
+          <li class="sidebar-link"><a href="">Navigation</a></li>
+          <li class="sidebar-link"><a href="">Model</a></li>
+          <li class="sidebar-link"><a href="">Rating</a></li>
+          <li class="sidebar-link"><a href="">Toast</a></li>
+          <li class="sidebar-link"><a href="">Grid</a></li>
+        </ul>
+      </nav>
+      <div class="page-container">
+        <h1 class="heading">Badge</h1>
+        <p class="info">
+          Badges are small circles, positioned either at top-right or
+          bottom-right of the parent component. Badge can be used to display
+          numbers, online / offline status, depending on where they are used.
+        </p>
 
-            <h1>Badge on Avatars</h1>
-            <p class="info">Profile Badge is used to show the current status of a user.
-                It can be used with 3 variants : online, offline and dnd</p>
-            <div class="box">
-                <div class="badge">
-                    <img class="avatar" src="/logos/Avatar/avatar1.jpg" alt="avatar" />
-                    <div class="status-badge online"></div>
-                </div>
-                <div class="badge">
-                    <img class="avatar"
-                        src="https://image.shutterstock.com/image-photo/portrait-emotional-man-showing-muscles-260nw-1170583033.jpg"
-                        alt="avatar" />
-                    <div class="status-badge dnd"></div>
-                </div>
-                <div class="badge">
-                    <img class="avatar"
-                        src="https://image.shutterstock.com/image-photo/young-handsome-man-wearing-casual-260nw-1838751646.jpg"
-                        alt="avatar" />
-                    <div class="status-badge offline"></div>
-                </div>
-            </div>
-
-            <div class="code-box">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Flogos%252FAvatar%252Favatar1.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status-badge%2520online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimage.shutterstock.com%252Fimage-photo%252Fportrait-emotional-man-showing-muscles-260nw-1170583033.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status-badge%2520dnd%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimage.shutterstock.com%252Fimage-photo%252Fyoung-handsome-man-wearing-casual-260nw-1838751646.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status-badge%2520offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    style="width: 1024px; height: 504px; border:0; transform: scale(1); overflow:hidden"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-
-
-            <h1>Badge on Icons</h1>
-            <p class="info">Badge is used to show the no. of items present inside component.</p>
-            <div class="box">
-                <div class="badge">
-                    <i class="fas fa-envelope avatar icon"></i>
-                    <div class="number-badge">9</div>
-                </div>
-                <div class="badge">
-                    <i class="fas fa-shopping-cart avatar icon"></i>
-                    <div class="number-badge blue">5</div>
-                </div>
-                <div class="badge">
-                    <i class="fas fa-bell avatar icon"></i>
-                    <div class="number-badge orange">3</div>
-                </div>
-            </div>
-
-            <div class="code-box">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2520avatar%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number-badge%2522%253E9%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520avatar%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number-badge%2520blue%2522%253E5%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2520avatar%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number-badge%2520orange%2522%253E3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    style="width: 656px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
+        <h1>Badge on Avatars</h1>
+        <p class="info">
+          Profile Badge is used to show the current status of a user. It can be
+          used with 3 variants : online, offline and dnd
+        </p>
+        <div class="box">
+          <div class="badge">
+            <img class="avatar" src="/logos/Avatar/avatar1.jpg" alt="avatar" />
+            <div class="status-badge online"></div>
+          </div>
+          <div class="badge">
+            <img
+              class="avatar"
+              src="https://image.shutterstock.com/image-photo/portrait-emotional-man-showing-muscles-260nw-1170583033.jpg"
+              alt="avatar"
+            />
+            <div class="status-badge dnd"></div>
+          </div>
+          <div class="badge">
+            <img
+              class="avatar"
+              src="https://image.shutterstock.com/image-photo/young-handsome-man-wearing-casual-260nw-1838751646.jpg"
+              alt="avatar"
+            />
+            <div class="status-badge offline"></div>
+          </div>
         </div>
-    </main>
-</body>
 
+        <div class="code-box">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Flogos%252FAvatar%252Favatar1.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status-badge%2520online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimage.shutterstock.com%252Fimage-photo%252Fportrait-emotional-man-showing-muscles-260nw-1170583033.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status-badge%2520dnd%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimage.shutterstock.com%252Fimage-photo%252Fyoung-handsome-man-wearing-casual-260nw-1838751646.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status-badge%2520offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="
+              width: 1024px;
+              height: 504px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <h1>Badge on Icons</h1>
+        <p class="info">
+          Badge is used to show the no. of items present inside component.
+        </p>
+        <div class="box">
+          <div class="badge">
+            <i class="fas fa-envelope avatar icon"></i>
+            <div class="number-badge">9</div>
+          </div>
+          <div class="badge">
+            <i class="fas fa-shopping-cart avatar icon"></i>
+            <div class="number-badge blue">5</div>
+          </div>
+          <div class="badge">
+            <i class="fas fa-bell avatar icon"></i>
+            <div class="number-badge orange">3</div>
+          </div>
+        </div>
+
+        <div class="code-box">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2520avatar%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number-badge%2522%253E9%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520avatar%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number-badge%2520blue%2522%253E5%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2520avatar%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number-badge%2520orange%2522%253E3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="
+              width: 656px;
+              height: 410px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

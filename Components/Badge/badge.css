@@ -1,52 +1,53 @@
-.status-badge{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    position: relative;
-    bottom: 13px;
-    left: 35px;
-    border: 1px solid white;
+.status-badge {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 17px;
+  left: 50px;
+  border: 2px solid white;
 }
 
-.number-badge{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    position: relative;
-    bottom: 56px;
-    left: 22px;
-    border: 1px solid white;
-    background-color: rgb(231, 15, 15);
-    color: white;
+.number-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 56px;
+  left: 22px;
+  border: 1px solid white;
+  background-color: rgb(231, 15, 15);
+  color: white;
 }
 
-.blue{
-    background-color: blue;
+.blue {
+  background-color: blue;
 }
-.orange{
-    background-color: rgb(255, 0, 191);
-}
-
-.online, .green{
-    background-color: green;
+.orange {
+  background-color: rgb(255, 0, 191);
 }
 
-.offline{
-background-color: gray;
+.online,
+.green {
+  background-color: green;
 }
 
-.dnd{
-    background-color: red;
+.offline {
+  background-color: gray;
 }
 
-.icon{
-    font-size: xx-large;
+.dnd {
+  background-color: red;
 }
 
-.code-box{
-    display: flex;
-    justify-content: center;
+.icon {
+  font-size: xx-large;
+}
+
+.code-box {
+  display: flex;
+  justify-content: center;
 }

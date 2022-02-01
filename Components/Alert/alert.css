@@ -1,0 +1,57 @@
+.alert {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  margin: 5px;
+  font-size: 1.4rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+}
+
+.success {
+  background-color: var(--success-color);
+}
+
+.warning {
+  background-color: var(--warning-color);
+}
+
+.outline-primary {
+  background-color: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.outline-secondary {
+  background-color: white;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.outline-success {
+  background-color: white;
+  color: var(--success-color);
+  border: 1px solid var(--success-color);
+}
+
+.outline-warning {
+  background-color: white;
+  color: var(--warning-color);
+  border: 1px solid var(--warning-color);
+}

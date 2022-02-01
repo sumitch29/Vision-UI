@@ -1,0 +1,80 @@
+@import url("/Components/Alert/alert.css");
+.btn {
+  width: 12rem;
+  height: 5rem;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.solid-btn {
+  color: white;
+  border: none;
+}
+
+.primary-hover:hover {
+  background-color: var(--primary-hover);
+  cursor: pointer;
+}
+
+.secondary-hover:hover {
+  background-color: var(--secondary-hover);
+  cursor: pointer;
+}
+
+.success-hover:hover {
+  background-color: var(--success-hover);
+  cursor: pointer;
+}
+
+.warning-hover:hover {
+  background-color: var(--warning-hover);
+  cursor: pointer;
+}
+
+.outline-primarybtn:hover {
+  background-color: var(--primary-hover);
+  color: var(--background-color);
+  cursor: pointer;
+}
+
+.outline-secondarybtn:hover {
+  background-color: var(--secondary-hover);
+  color: var(--background-color);
+  cursor: pointer;
+}
+
+.outline-successbtn:hover {
+  background-color: var(--success-hover);
+  color: var(--background-color);
+  cursor: pointer;
+}
+
+.outline-warningbtn:hover {
+  background-color: var(--warning-hover);
+  color: var(--background-color);
+  cursor: pointer;
+}
+
+.linkbtn:hover {
+  width: 12.5rem;
+  height: 5.5rem;
+}
+
+.floating-btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+}
+
+.floating-btn:hover {
+  z-index: 10;
+  width: 85px;
+  height: 85px;
+  cursor: pointer;
+}

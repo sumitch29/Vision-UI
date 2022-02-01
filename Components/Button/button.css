@@ -7,6 +7,16 @@
   font-size: large;
 }
 
+.btn-link{
+    width: 12rem;
+    height: 5rem;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: large; 
+    color: var(--background-color);
+    border: none;
+}
+
 .solid-btn {
   color: white;
   border: none;

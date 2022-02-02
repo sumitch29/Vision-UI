@@ -4,6 +4,7 @@
 @import url("/Components/Badge/badge.css");
 @import url("/Components/Alert/alert.css");
 @import url("/Components/Button/button.css");
+@import url("/Components/Card/card.css");
 
 * {
   padding: 0;
@@ -14,11 +15,12 @@
   --primary-color: #2874f0;
   --secondary-color: rgb(236, 128, 65);
   --background-color: white;
+  --background-color-secondary: rgb(214, 214, 214);
   --font-color-secondary: rgb(63, 61, 86);
   --success-color: rgb(116, 204, 116);
   --warning-color: rgb(233, 67, 67);
-  --primary-hover: #00868d;
-  --secondary-hover: rgb(224, 109, 42);
+  --primary-hover: #0062ff;
+  --secondary-hover: #fb641b;
   --success-hover: rgb(91, 197, 91);
   --warning-hover: rgb(212, 39, 39);
 }

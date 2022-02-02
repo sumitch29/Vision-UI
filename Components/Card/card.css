@@ -1,0 +1,102 @@
+.img-vertical{
+    width: 15rem;
+    height: 20rem;
+}
+
+.brand-name{
+    padding: 3px;
+    font-size: large;
+}
+
+.brand-info{
+    font-size: small;
+    padding: 5px;
+}
+
+.vertical-ecomm{
+    width: 16rem;
+    height: 35rem;
+    padding: 3px;
+}
+
+.price{
+    font-weight: 500;
+}
+
+.rightheart{
+position: relative;
+left: 6.5rem;
+}
+
+.rightheart:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.badge-ecomm{
+    background-color: var(--warning-color);
+    color: var(--background-color);
+    width: 4rem;
+    height: 2rem;
+    padding: 4px 2px 2px 10px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 18rem;
+}
+
+.dismiss{
+    position: relative;
+    bottom: 19rem;
+    left: 12.5rem;
+    font-size: large;
+}
+
+.dismiss:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.card{
+    width: 28rem;
+    height: 30;
+    background-color: var(--background-color-secondary);
+    padding: 8px;
+}
+
+.card-heading{
+    padding: 2px;
+}
+
+.card-author{
+    padding: 8px 0 5px 0;
+    color: var(--font-color-secondary);
+    font-size: small;
+}
+
+.card-info{
+ font-size: small;
+}
+
+.shadow{
+    box-shadow: 10px 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+.overlay{
+    opacity: 0.3;
+}
+
+.outofstock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 9rem;
+    color: var(--warning-color);
+}
+
+.horizontal-card{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+

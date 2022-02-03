@@ -22,6 +22,16 @@
   background-color: rgb(231, 15, 15);
   color: white;
 }
+.badge {
+  padding-top: 10px;
+  margin: 0;
+}
+
+.badge-icon {
+  width: 70px;
+  height: 90px;
+  padding: 25px 18px;
+}
 
 .blue {
   background-color: blue;
@@ -43,7 +53,7 @@
   background-color: red;
 }
 
-.icon {
+.font-xxl {
   font-size: xx-large;
 }
 

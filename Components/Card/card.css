@@ -92,6 +92,7 @@ left: 6.5rem;
     position: relative;
     top: 9rem;
     color: var(--warning-color);
+    z-index: 2;
 }
 
 .horizontal-card{

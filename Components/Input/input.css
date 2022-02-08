@@ -1,0 +1,68 @@
+.input-box {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+}
+
+.padding-top-bottom {
+  padding: 5px 0 5px 0;
+}
+
+.padding-left {
+  padding-left: 5px;
+}
+
+.password-warning {
+  color: red;
+  font-size: small;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  box-shadow: var(--font-color-secondary) 0px 1px 2px 0px,
+    var(--font-color-secondary) 0px 2px 8px 2px;
+  width: 35rem;
+  height: 27rem;
+}
+
+.email-left {
+  position: relative;
+  right: 7.5rem;
+}
+
+.password-left {
+  position: relative;
+  right: 9rem;
+}
+
+.forgot-right {
+  position: relative;
+  left: 7.5rem;
+}
+.primary-font {
+  color: var(--primary-color);
+}
+
+.inline-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.email-input,
+.password-input {
+  width: 25rem;
+  height: 3rem;
+  padding: 5px 5px;
+}
+
+#radio-1,
+#radio-2,
+#radio-3:hover {
+  cursor: pointer;
+}

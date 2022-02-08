@@ -1,32 +1,39 @@
-.font-l{
-    font-size: large;
+.font-l {
+  font-size: large;
 }
 
-.font-xl{
-    font-size: x-large;
+.font-xl {
+  font-size: x-large;
 }
 
-.responsive{
-    width: 100%;
-    height:auto
+.font-s {
+  font-size: small;
 }
 
-.img-round{
-    border-radius: 50%;
+.font-m{
+    font-size: medium;
 }
 
-.img-s{
-    width: 15rem;
-    height: 15rem;
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
-.img-m{
-    width: 20rem;
-    height: 20rem;
+.img-round {
+  border-radius: 50%;
 }
 
-.img-l{
-    width: 25rem;
-    height: 25rem;
+.img-s {
+  width: 15rem;
+  height: 15rem;
 }
 
+.img-m {
+  width: 20rem;
+  height: 20rem;
+}
+
+.img-l {
+  width: 25rem;
+  height: 25rem;
+}

@@ -1,0 +1,15 @@
+.Vertical-box{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+}
+
+.font-gray{
+    color: var(--font-gray);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

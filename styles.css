@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @import url("/Components/styles.css");
 @import url("/Components/Avatar/avatar.css");
 @import url("/Components/Badge/badge.css");
@@ -7,6 +7,8 @@
 @import url("/Components/Card/card.css");
 @import url("/Components/Image/image.css");
 @import url("/Components/Input/input.css");
+@import url("/Components/Text-Utilities/text.css");
+@import url('/Components/List/list.css');
 
 * {
   padding: 0;
@@ -25,11 +27,12 @@
   --secondary-hover: #fb641b;
   --success-hover: rgb(91, 197, 91);
   --warning-hover: rgb(212, 39, 39);
+  --font-gray: gray;
 }
 
 html {
   font-size: 62.5%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .header-container {
@@ -46,7 +49,7 @@ html {
   display: flex;
   align-items: center;
   font-size: x-large;
-  font-family: cursive;
+  color: var(--background-color);
 }
 
 .header-link {
@@ -76,14 +79,29 @@ html {
   color: white;
 }
 
+.landing-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 6rem;
+  padding: 5rem 5rem;
+  height: 90vh;
+}
+
 .hero-img {
-  width: 35%;
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  width: 45%;
+  height: auto;
+  object-fit: contain;
 }
 
 .main-heading {
-  position: absolute;
-  top: 25%;
-  left: 40%;
   font-size: large;
   width: 40%;
   height: auto;
@@ -92,6 +110,10 @@ html {
 .sub-heading {
   padding-top: 2rem;
   color: var(--font-color-secondary);
+}
+
+.landing-btn{
+  padding: 2rem 0;
 }
 
 a {

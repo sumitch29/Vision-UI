@@ -29,7 +29,7 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   align-items: center;
-  border: 1px solid var(--font-color-secondary);
+  border: 2px solid var( --font-gray);
   width: auto;
   height: auto;
 }
@@ -37,6 +37,7 @@
 .code-box {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  height: fit-content;
 }
 
 .smallavt {

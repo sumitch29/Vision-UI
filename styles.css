@@ -1,3 +1,4 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @import url("/Components/styles.css");
 @import url("/Components/Avatar/avatar.css");
@@ -9,6 +10,8 @@
 @import url("/Components/Input/input.css");
 @import url("/Components/Text-Utilities/text.css");
 @import url('/Components/List/list.css');
+@import url('/Components/Rating/rating.css');
+@import url('/Components/Grid/grid.css');
 
 * {
   padding: 0;
@@ -28,6 +31,7 @@
   --success-hover: rgb(91, 197, 91);
   --warning-hover: rgb(212, 39, 39);
   --font-gray: gray;
+  --orange-color: orange;
 }
 
 html {
@@ -63,6 +67,20 @@ html {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
+}
+
+.headerlink-nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 23rem;
+  margin-left: auto;
+  font-size: xx-large;
+}
+
+.headerlink-nav-icon:hover{
+  color: var(--background-color);
+
 }
 
 .home-link,

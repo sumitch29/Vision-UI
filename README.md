@@ -9,8 +9,9 @@ This component library is built with html and css. All the components are ready 
 
 ### Installation Steps
 
-Copy and paste following tag inside html head tag
- `<link rel="stylesheet" href="https://vision-ui.netlify.app/styles.css">`
+Copy and paste following tag inside html head tag.
+
+`<link rel="stylesheet" href="https://vision-ui.netlify.app/styles.css">`
 
 ![Screenshot (397)](https://user-images.githubusercontent.com/88649934/154021212-de4512eb-40ba-4ed3-96ee-16c37d1bb364.png)
 

@@ -2,29 +2,33 @@
   display: flex;
   flex-direction: column;
   width: 20rem;
-  background-color: var(--background-color-secondary);
+  background-color: var(--background-color);
   padding: 0 1rem 0 1rem;
-  height: 65rem;
-  overflow-y: scroll ;
-  position: fixed;
+  /* height: 65rem; */
+  /* overflow-y: scroll; */
+  overflow-x: hidden;
+  position: relative;
   top: 6rem;
+  box-shadow: 5px 5px 9px 2px var(--font-gray);
 }
 
 .sidebar-link {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 0;
   font-size: large;
   margin: 5px;
-  height: 9rem;
+  height: 5rem;
   width: 15rem;
+  /* border: 1px solid black; */
 }
 
 .sidebar-link:hover {
   cursor: pointer;
-  background-color: var(--background-color);
+  /* background-color: var(--font-color-secondary); */
   border-radius: 5px;
+  color: var(--primary-color);
 }
 
 .active {
@@ -38,8 +42,9 @@
   width: 100%;
   height: 5.5rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding-left: 3rem;
 }
 
 @media (max-width: 768px) {
@@ -56,7 +61,7 @@
     height: auto;
     overflow-y: visible;
   }
-  
+
   .sidebar-link {
     display: flex;
     justify-content: center;
@@ -68,25 +73,25 @@
     width: 10rem;
   }
 
-.img-s{
-  width: 50rem;
-  height: 50rem;
-}
+  .img-s {
+    width: 50rem;
+    height: 50rem;
+  }
 
-.img-m{
-  width: 75rem;
-  height: 75rem;
-}
+  .img-m {
+    width: 75rem;
+    height: 75rem;
+  }
 
-.img-l{
-  width: 100rem;
-  height: 100rem;
-}
+  .img-l {
+    width: 100rem;
+    height: 100rem;
+  }
 
-.page-container{
-  width: auto;
-  padding-right: 9.5rem;
-}
+  .page-container {
+    width: auto;
+    padding-right: 9.5rem;
+  }
 }
 
 @media (min-width: 320px) and(max-width: 374px) {
@@ -105,21 +110,21 @@
     height: 5rem;
     width: max-content;
   }
-  .page-container{
+  .page-container {
     width: 100%;
   }
 
-  .img-s{
+  .img-s {
     width: 5rem;
     height: 5rem;
   }
-  
-  .img-m{
+
+  .img-m {
     width: 10rem;
     height: 10rem;
   }
-  
-  .img-l{
+
+  .img-l {
     width: 15rem;
     height: 15rem;
   }

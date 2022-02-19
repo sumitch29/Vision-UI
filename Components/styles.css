@@ -9,7 +9,7 @@
   overflow-x: hidden;
   position: relative;
   top: 6rem;
-  box-shadow: 5px 5px 9px 2px grey;
+  box-shadow: 5px 5px 9px 2px var(--font-gray);
 }
 
 .sidebar-link {

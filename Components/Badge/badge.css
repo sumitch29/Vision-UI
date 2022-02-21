@@ -5,7 +5,7 @@
   position: relative;
   bottom: 17px;
   left: 50px;
-  border: 2px solid white;
+  border: 2px solid var(--background-color);
 }
 
 .number-badge {
@@ -18,10 +18,11 @@
   position: relative;
   bottom: 78px;
   left: 18px;
-  border: 1px solid white;
-  background-color: rgb(231, 15, 15);
-  color: white;
+  border: 1px solid var(--background-color);
+  background-color: var(--warning-hover);
+  color: var(--background-color);
 }
+
 .badge {
   padding-top: 10px;
   margin: 0;
@@ -34,23 +35,24 @@
 }
 
 .blue {
-  background-color: blue;
+  background-color: var(--blue-color);
 }
+
 .orange {
-  background-color: rgb(255, 0, 191);
+  background-color: var(--pink-color);
 }
 
 .online,
 .green {
-  background-color: green;
+  background-color: var(--green-color);
 }
 
 .offline {
-  background-color: gray;
+  background-color: var(--font-gray);
 }
 
 .dnd {
-  background-color: red;
+  background-color: var(--warning-hover);
 }
 
 .font-xxl {

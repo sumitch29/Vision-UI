@@ -13,7 +13,7 @@
 }
 
 .password-warning {
-  color: red;
+  color: var(--red-color);
   font-size: small;
 }
 

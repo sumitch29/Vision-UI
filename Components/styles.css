@@ -4,8 +4,6 @@
   width: 20rem;
   background-color: var(--background-color);
   padding: 0 1rem 0 1rem;
-  /* height: 65rem; */
-  /* overflow-y: scroll; */
   overflow-x: hidden;
   position: relative;
   top: 6rem;
@@ -21,12 +19,10 @@
   margin: 5px;
   height: 5rem;
   width: 15rem;
-  /* border: 1px solid black; */
 }
 
 .sidebar-link:hover {
   cursor: pointer;
-  /* background-color: var(--font-color-secondary); */
   border-radius: 5px;
   color: var(--primary-color);
 }

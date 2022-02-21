@@ -29,7 +29,7 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   align-items: center;
-  border: 2px solid var(--font-gray);
+  border: 2px solid var( --font-gray);
   width: auto;
   height: auto;
 }
@@ -58,13 +58,36 @@
   border-radius: 50%;
 }
 
+.yellowavt {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blueavt {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.greenavt {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
 @media (max-width: 768px) {
   .code-box {
     box-sizing: border-box;
     width: 100%;
     max-height: auto;
     padding: 1rem 0;
-    background-color: var(--background-color);
+    background-color: #fafafa;
     margin: 2rem 0;
     overflow: auto;
   }

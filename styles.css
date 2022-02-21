@@ -32,20 +32,13 @@
   --success-hover: rgb(91, 197, 91);
   --warning-hover: rgb(212, 39, 39);
   --font-gray: gray;
-  --green-color: green;
-  --blue-color: blue;
-  --pink-color: rgb(240, 32, 170);
-  --red-color: red;
   --orange-color: orange;
-  --light-gray: rgb(226, 226, 226);
 }
 
 html {
   font-size: 62.5%;
   font-family: "Roboto Slab", serif;
 }
-
-/* Navbar */
 
 .header-container {
   display: flex;
@@ -97,14 +90,12 @@ html {
 }
 
 .home-link:hover {
-  color: var(--background-color);
+  color: white;
 }
 
 .doc-link:hover {
-  color: var(--background-color);
+  color: white;
 }
-
-/* Page */
 
 .landing-page {
   display: flex;

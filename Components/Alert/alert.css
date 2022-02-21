@@ -1,7 +1,7 @@
 .alert {
   width: 60%;
   background-color: var(--primary-color);
-  color: var(--background-color);
+  color: white;
   border-radius: 4px;
   margin: 5px;
   font-size: 1.4rem;
@@ -33,25 +33,25 @@
 }
 
 .outline-primary {
-  background-color: var(--background-color);
+  background-color: white;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
 
 .outline-secondary {
-  background-color: var(--background-color);
+  background-color: white;
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
 }
 
 .outline-success {
-  background-color: var(--background-color);
+  background-color: white;
   color: var(--success-color);
   border: 1px solid var(--success-color);
 }
 
 .outline-warning {
-  background-color: var(--background-color);
+  background-color: white;
   color: var(--warning-color);
   border: 1px solid var(--warning-color);
 }

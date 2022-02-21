@@ -1,4 +1,4 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @import url("/Components/styles.css");
 @import url("/Components/Avatar/avatar.css");
@@ -9,9 +9,10 @@
 @import url("/Components/Image/image.css");
 @import url("/Components/Input/input.css");
 @import url("/Components/Text-Utilities/text.css");
-@import url('/Components/List/list.css');
-@import url('/Components/Rating/rating.css');
-@import url('/Components/Grid/grid.css');
+@import url("/Components/List/list.css");
+@import url("/Components/Rating/rating.css");
+@import url("/Components/Grid/grid.css");
+@import url("/Components/modal/modal.css");
 
 * {
   padding: 0;
@@ -69,7 +70,7 @@ html {
   padding: 0.5rem 1rem;
 }
 
-.headerlink-nav{
+.headerlink-nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -78,9 +79,8 @@ html {
   font-size: xx-large;
 }
 
-.headerlink-nav-icon:hover{
+.headerlink-nav-icon:hover {
   color: var(--background-color);
-
 }
 
 .home-link,
@@ -130,7 +130,7 @@ html {
   color: var(--font-color-secondary);
 }
 
-.landing-btn{
+.landing-btn {
   padding: 2rem 0;
 }
 

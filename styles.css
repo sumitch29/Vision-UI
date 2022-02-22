@@ -14,6 +14,7 @@
 @import url("/Components/Grid/grid.css");
 @import url("/Components/modal/modal.css");
 @import url("/Components/Snackbar/snackbar.css");
+@import url("/Components/slider/slider.css");
 
 * {
   padding: 0;

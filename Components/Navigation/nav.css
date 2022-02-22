@@ -1,0 +1,24 @@
+/* ///////////navigation////////// */
+
+.ecomm-nav {
+  display: flex;
+  background-color: var(--primary-color);
+  height: 6rem;
+  width: 100%;
+}
+.color-w {
+  color: var(--background-color);
+  z-index: 1;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ////////////////nav with search////// */
+
+.search {
+  width: 45rem;
+  height: 3rem;
+}

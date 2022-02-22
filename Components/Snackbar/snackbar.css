@@ -5,28 +5,28 @@
   justify-content: space-evenly;
   align-items: center;
   font-size: large;
-  background-color: rgb(54, 53, 53);
+  background-color: var(--baseline-background);
   width: fit-content;
   border-radius: 5px;
   padding: 5px 10px;
 }
 
 .baseline-para {
-  color: whitesmoke;
+  color: var(--background-color);
 }
 
 .baseline-retry {
   display: flex;
-  color: rgb(223, 93, 223);
+  color: var(--snackbar-retry);
   align-items: center;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
 }
 
 .baseline-cross {
-  color: whitesmoke;
+  color: var(--background-color);
   display: flex;
   align-items: center;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 15px;
   font-size: 2rem;
   font-weight: 900;
   border-radius: 50%;
@@ -36,7 +36,7 @@
 
 .baseline-cross:hover {
   cursor: pointer;
-  background-color: rgb(85, 82, 82);
+  background-color: var(--baseline-hover);
   border-radius: 50%;
 }
 
@@ -51,7 +51,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: large;
-  background-color: rgb(54, 53, 53);
+  background-color: var(--baseline-background);
   width: fit-content;
   border-radius: 5px;
   margin-top: 3rem;
@@ -59,21 +59,21 @@
 }
 
 .leading-para {
-  color: whitesmoke;
+  color: var(--background-color);
 }
 
 .leading-retry {
   display: flex;
-  color: rgb(223, 93, 223);
+  color: var(--snackbar-retry);
   align-items: center;
   padding: 10px;
 }
 
 .leading-cross {
-  color: whitesmoke;
+  color: var(--background-color);
   display: flex;
   align-items: center;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 15px;
   font-size: 2rem;
   font-weight: 900;
   border-radius: 50%;
@@ -83,7 +83,7 @@
 
 .leading-cross:hover {
   cursor: pointer;
-  background-color: rgb(85, 82, 82);
+  background-color: var(--baseline-hover);
   border-radius: 50%;
 }
 
@@ -98,7 +98,7 @@
   font-size: large;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(54, 53, 53);
+  background-color: var(--baseline-background);
   width: fit-content;
   border-radius: 5px;
   margin-top: 3rem;
@@ -106,20 +106,20 @@
 }
 
 .stacked-para {
-  color: whitesmoke;
+  color: var(--background-color);
   padding-top: 10px;
 }
 
 .stacked-label {
   display: flex;
   margin-left: auto;
-  color: rgb(223, 93, 223);
+  color: var(--snackbar-retry);
   align-items: center;
   padding: 10px;
 }
 
 .stacked-cross {
-  color: whitesmoke;
+  color: var(--background-color);
   display: flex;
   align-items: center;
   padding: 10px 15px;
@@ -130,7 +130,7 @@
 
 .stacked-cross:hover {
   cursor: pointer;
-  background-color: rgb(85, 82, 82);
+  background-color: var(--baseline-hover);
   border-radius: 50%;
 }
 

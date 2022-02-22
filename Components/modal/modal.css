@@ -1,0 +1,24 @@
+.modal {
+  border: 2px solid var(--font-gray);
+  width: 50rem;
+  background-color: var(--light-gray);
+}
+
+.modal-head {
+  font-size: large;
+  padding: 1rem;
+}
+
+.modal-body {
+  border-bottom: 2px solid var(--font-gray);
+  border-top: 2px solid var(--font-gray);
+  padding: 1rem;
+  font-size: small;
+  text-align: justify;
+}
+
+.modal-foot {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}

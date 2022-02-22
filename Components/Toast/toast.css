@@ -1,0 +1,139 @@
+/* ///////baseline///// */
+
+.baseline {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: large;
+  background-color: rgb(54, 53, 53);
+  width: fit-content;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.baseline-para {
+  color: whitesmoke;
+}
+
+.baseline-retry {
+  display: flex;
+  color: rgb(223, 93, 223);
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.baseline-cross {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px 10px 15px;
+  font-size: 2rem;
+  font-weight: 900;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.baseline-cross:hover {
+  cursor: pointer;
+  background-color: rgb(85, 82, 82);
+  border-radius: 50%;
+}
+
+.baseline-retry:hover {
+  cursor: pointer;
+}
+
+/*//////////// LEADING  /////////////*/
+
+.leading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  background-color: rgb(54, 53, 53);
+  width: fit-content;
+  border-radius: 5px;
+  margin-top: 3rem;
+  padding: 5px 10px;
+}
+
+.leading-para {
+  color: whitesmoke;
+}
+
+.leading-retry {
+  display: flex;
+  color: rgb(223, 93, 223);
+  align-items: center;
+  padding: 10px;
+}
+
+.leading-cross {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px 10px 15px;
+  font-size: 2rem;
+  font-weight: 900;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.leading-cross:hover {
+  cursor: pointer;
+  background-color: rgb(85, 82, 82);
+  border-radius: 50%;
+}
+
+.leading-retry:hover {
+  cursor: pointer;
+}
+
+/*/////////// Stacked ////////////*/
+
+.stacked {
+  display: flex;
+  font-size: large;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(54, 53, 53);
+  width: fit-content;
+  border-radius: 5px;
+  margin-top: 3rem;
+  padding: 10px;
+}
+
+.stacked-para {
+  color: whitesmoke;
+  padding-top: 10px;
+}
+
+.stacked-label {
+  display: flex;
+  margin-left: auto;
+  color: rgb(223, 93, 223);
+  align-items: center;
+  padding: 10px;
+}
+
+.stacked-cross {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  font-size: 2rem;
+  font-weight: 900;
+  border-radius: 50%;
+}
+
+.stacked-cross:hover {
+  cursor: pointer;
+  background-color: rgb(85, 82, 82);
+  border-radius: 50%;
+}
+
+.stacked-label:hover {
+  cursor: pointer;
+}

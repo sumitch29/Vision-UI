@@ -15,6 +15,7 @@
 @import url("/Components/modal/modal.css");
 @import url("/Components/Snackbar/snackbar.css");
 @import url("/Components/slider/slider.css");
+@import url("/Components/Navigation/nav.css");
 
 * {
   padding: 0;

@@ -93,7 +93,7 @@
 
 /*/////////// Stacked ////////////*/
 
-.stacked {
+.stacked-snack {
   display: flex;
   font-size: large;
   justify-content: center;
